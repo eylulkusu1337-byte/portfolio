@@ -1,0 +1,11 @@
+ $OpenSans:('medium': 500),('regular': 400),('bold': 700),('light': 300);
+
+ @each $name, $weight in $OpenSans {
+   @font-face {
+     font-family: "Open Sans";
+     font-weight: $weight;
+     src: url("../fonts/OpenSans-\#{$name}.woff2") format("woff2");
+   }
+ }
+ 
+
