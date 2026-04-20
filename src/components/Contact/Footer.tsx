@@ -2,6 +2,7 @@ import "./footer.scss";
 import { IoCallOutline } from "react-icons/io5";
 import { FaTelegram } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const ContactSection = () => {
     return (
@@ -12,15 +13,20 @@ const ContactSection = () => {
                     <div className="circle"></div>
                 </div>
                 <div className="contact-overlay">
-                    <div className="contact-item">     <a href="tel:+998901234567" className="contact-item">
+                    <div className="contact-item">     <a href="tel:+998903361113" className="contact-item">
                         Contact Me <IoCallOutline />
                     </a></div>
-                    <div className="contact-item">  <a href="https://t.me/yourtelegram" target="_blank" className="contact-item">
+                    <div className="contact-item">  <a href="https://t.me/zarish2909" target="_blank" className="contact-item">
                         telegram <FaTelegram />
                     </a></div>
-                    <div className="contact-item">   <a href="https://instagram.com/yourinstagram" target="_blank" className="contact-item">
+                    <div className="contact-item">   <a href="https://instagram.com/zarfinity" target="_blank" className="contact-item">
                         instagram <FaInstagram />
                     </a></div>
+                    <div className="contact-item">
+                        <a href="https://github.com/eylulkusu1337-byte" target="_blank" className="contact-item">
+                            github <FaGithub />
+                        </a>
+                    </div>
                 </div>
                 <div className="form-box">
                     <label>Name :</label>

@@ -27,6 +27,8 @@ const projects: ProjectItem[] = [
         img: "/src/assets/img/project4.png",
         link: "https://vite-xi-topaz-80.vercel.app/",
     },
+    
+    
 ];
 
 const Project = () => {

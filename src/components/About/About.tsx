@@ -19,7 +19,7 @@ const About = () => {
                                     <br /> <br />
                                     Additionally, I am always eager to learn new things and improve myself continuously. Following trends and updates in the frontend field, trying new technologies, and developing myself into a professional developer are my main goals. For me, writing code is not just work — it is creativity, growth, and an art of creating beautiful things.
                                 </p>
-                                <a href="tel:+998901234567" className="btn">
+                                <a href="tel:+998903361113" className="btn">
                                     Call Me <IoCallOutline />
                                 </a>
                             </div>
